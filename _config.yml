@@ -1,0 +1,17 @@
+title: "Financial Development & Economic Growth"
+description: "Team 2 — HWR Berlin Data Analytics Project SoSe 2026"
+
+remote_theme: just-the-docs/just-the-docs
+
+url: "https://gunsnowirl.github.io"
+baseurl: "/data-analytics-project"
+
+plugins:
+  - jekyll-remote-theme
+
+# Just the Docs settings
+search_enabled: true
+nav_sort: order
+color_scheme: default
+
+footer_content: "Team 2 &mdash; Andrei Piatrouski, Nikita Pasichnyk, Hannes Gantzkow, Jean Yves Nkwane Ebongue"

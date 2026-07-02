@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data files (large — keep out of git if needed)
+# data/*.csv
+
+# Claude Code session worktrees
+.claude/
