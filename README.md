@@ -77,3 +77,30 @@ pip install pandas numpy matplotlib seaborn jupyter
 <div align="center">
   <p>Made for <strong>HWR Berlin Data Analytics SoSe 2026</strong></p>
 </div>
+
+### 🔬 Key Econometric Indicators & Methodology
+
+| Indicator | Source / Metric | Analytical Objective |
+| :--- | :--- | :--- |
+| **Financial Depth** | Domestic credit to private sector (% of GDP) | Measures financial intermediary scale and capital allocation |
+| **Financial Breadth** | Broad money (M2/M3 as % of GDP) | Evaluates monetization and liquid liability availability |
+| **Economic Growth** | Real GDP per capita growth (annual %) | Primary dependent variable tracking macroeconomic expansion |
+| **Control Variables** | Inflation, Trade Openness, Government Expenditure | Controls for exogenous structural determinants |
+
+### 🚀 Quick Start & Reproducibility
+
+```bash
+# 1. Clone repository
+git clone https://github.com/Nejy190501/global-finance-data-analytics.git
+cd global-finance-data-analytics
+
+# 2. Setup virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Launch Jupyter Notebook
+jupyter notebook notebooks/
+```
